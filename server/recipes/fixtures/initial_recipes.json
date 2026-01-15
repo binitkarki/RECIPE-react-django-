@@ -30,30 +30,36 @@
   },
   {
     "model": "recipes.recipe",
-    "pk": 2,
+    "pk": 3,
     "fields": {
-      "title": "Tomato Soup",
-      "description": "Simple homemade tomato soup.",
+      "title": "Pull-Apart Sliders",
+      "description": "This is a great way to feed a crowd of hungry people - serve up a big dish of pull-apart beef burger sliders. ",
       "ingredients": [
-        {"quantity": "4", "item": "Tomatoes"},
-        {"quantity": "1", "item": "Onion"},
-        {"quantity": "2 cloves", "item": "Garlic"},
-        {"quantity": "1 tsp", "item": "Salt"},
-        {"quantity": "1/2 tsp", "item": "Pepper"}
+        {"quantity": "800g", "item": "Chicken mince"},
+        {"quantity": "2 tbsp", "item": "tomato sauce"},
+        {"quantity": "1 tsp", "item": "Worcestershire sauce"},
+        {"quantity": "1 tsp", "item": "dried Italian herbs"},
+        {"quantity": "2 tbsp", "item": "olive oil"},
+        {"quantity": "3", "item": "onions, sliced"},
+        {"quantity": "15", "item": "round dinner rolls"},
+        {"quantity": "1/3 cup", "item": "tomato sauce"},
+        {"quantity": "2 cups", "item": "grated cheese"},
+        {"quantity": "1 tbsp", "item": "melted butter"}
       ],
       "steps": [
-        "Chop vegetables",
-        "Cook in pot until soft",
-        "Blend until smooth",
-        "Simmer and serve"
+        "Preheat oven to 180C/160C. In a large bowl, combine mince, sauces, herbs and plenty of salt and pepper. Using clean hands, mix very well, then form into 15 golfball-sized balls. ",
+        "Heat 1tbsp oil in a frypan. Add 4-5 meat patties and flatten with the back of a spatula. Cook for 2 minutes each side until just cooked through",
+        "Meanwhile, in a separate pan, heat remaining oil and cook onions for 5 minutes over gentle heat until starting to brown. ",
+        "Try to keep the dinner rolls joined together as a slab, and slice them in half horizontally. Place the bottle halves in a deep baking dish that holds them all snugly. Place a cooked beef patty on each roll, top with 1-2 tsp tomato sauce, then add some cooked onions and plenty of grated cheese. Carefully replace top halves of bread rolls on top. Bake for 5 minutes, then remove from oven and brush with melted butter. Return to the oven for a further 5 minutes. ",
+        "Serve in the baking dish and allow everyone to pull apart their own slider. "
       ],
-      "image": "recipes/soup.jpg",
+      "image": "recipes/pull.jpg",
       "difficulty": "medium",
       "cooking_time": 30,
-      "servings": 2,
-      "category": "soup",
+      "servings": 6,
+      "category": "appetizer",
       "views": 0,
-      "created_at": "2024-01-01T00:00:00Z",
+      "created_at": "2026-01-15T00:00:00Z",
       "author": null
     }
   }

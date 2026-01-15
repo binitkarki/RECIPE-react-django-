@@ -208,13 +208,16 @@
 
 .step-row {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  align-items: flex-start;  
+  gap: 12px;                
+  margin-bottom: 16px;      
 }
 
 .step-circle {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  min-height: 32px;
   border-radius: 50%;
   background: #ff8c2f;
   color: #fff;
@@ -223,7 +226,11 @@
   justify-content: center;
   font-weight: 700;
   font-size: 14px;
+  flex-shrink: 0;           
+  text-align: center;
+  margin-top: 2px;          
 }
+
 
 
 .detail-extra-image {
