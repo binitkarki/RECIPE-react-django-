@@ -1,0 +1,60 @@
+[
+  {
+    "model": "recipes.recipe",
+    "pk": 1,
+    "fields": {
+      "title": "Classic Pancakes",
+      "description": "Fluffy pancakes perfect for breakfast.",
+      "ingredients": [
+        {"quantity": "2 cups", "item": "Flour"},
+        {"quantity": "1 cup", "item": "Milk"},
+        {"quantity": "2", "item": "Eggs"},
+        {"quantity": "2 tbsp", "item": "Sugar"},
+        {"quantity": "1 tbsp", "item": "Butter"}
+      ],
+      "steps": [
+        "Mix dry ingredients together",
+        "Add wet ingredients and whisk",
+        "Pour batter onto skillet",
+        "Cook until golden brown"
+      ],
+      "image": "recipes/pancakes.jpg",
+      "difficulty": "easy",
+      "cooking_time": 15,
+      "servings": 4,
+      "category": "dessert",
+      "views": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "author": null
+    }
+  },
+  {
+    "model": "recipes.recipe",
+    "pk": 2,
+    "fields": {
+      "title": "Tomato Soup",
+      "description": "Simple homemade tomato soup.",
+      "ingredients": [
+        {"quantity": "4", "item": "Tomatoes"},
+        {"quantity": "1", "item": "Onion"},
+        {"quantity": "2 cloves", "item": "Garlic"},
+        {"quantity": "1 tsp", "item": "Salt"},
+        {"quantity": "1/2 tsp", "item": "Pepper"}
+      ],
+      "steps": [
+        "Chop vegetables",
+        "Cook in pot until soft",
+        "Blend until smooth",
+        "Simmer and serve"
+      ],
+      "image": "recipes/soup.jpg",
+      "difficulty": "medium",
+      "cooking_time": 30,
+      "servings": 2,
+      "category": "soup",
+      "views": 0,
+      "created_at": "2024-01-01T00:00:00Z",
+      "author": null
+    }
+  }
+]

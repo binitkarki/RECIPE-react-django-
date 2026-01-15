@@ -1,0 +1,6 @@
+.recipe-form { display: grid; gap: 10px; background: var(--card); border: 1px solid #2a2b2f; border-radius: 12px; padding: 16px; }
+.form-row { display: grid; grid-template-columns: 160px 1fr; gap: 10px; align-items: center; }
+.two-column { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.one-column { display: grid; gap: 8px; }
+
+.amount-bold { font-weight: 700; }

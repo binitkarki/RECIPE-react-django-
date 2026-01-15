@@ -1,0 +1,9 @@
+.bottom-banner {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 999;
+  background: rgba(18,19,22,0.96); border-top: 1px solid #222;
+}
+.banner-content {
+  max-width: 1200px; margin: 0 auto; padding: 10px 20px; display: grid; gap: 8px;
+}
+.banner-form { display: grid; grid-template-columns: 1fr 1fr auto auto auto; gap: 8px; }
+.banner-form input { width: 100%; }

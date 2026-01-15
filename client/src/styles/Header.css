@@ -1,0 +1,20 @@
+.header {
+  position: fixed; top: 0; left: 0; right: 0;
+  display: flex; align-items: center; gap: 16px;
+  background: rgba(18,19,22,0.95); border-bottom: 1px solid #222;
+  padding: 12px 20px; z-index: 1000;
+}
+.logo { color:#ff8c2f;font-weight: 900;font-size: 30px; letter-spacing: 0.15em; }
+.search { flex: 1; display: flex; gap: 8px; }
+.search input { flex: 1; }
+.auth-cta { display: flex; align-items: center; gap: 8px; }
+.profile { position: relative; }
+.avatar {
+  width: 37px; height: 36px; border-radius: 50%;
+  background: var(--accent-2); color: #000; font-weight: 700;
+}
+.menu {
+  position: absolute; right: 0; top: 42px; background: var(--card);
+  border: 1px solid #333; border-radius: 8px; padding: 8px; display: grid; gap: 6px;
+}
+.menu button { width: 180px; text-align: left; background: #27282c; }

@@ -1,0 +1,28 @@
+.modal-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.6);
+  display: grid; place-items: center; z-index: 1002;
+}
+.modal-sheet {
+  width: min(800px, 92vw);
+  background: var(--card);
+  border: 1px solid #2a2b2f;
+  border-radius: 12px;
+  padding: 12px;
+}
+.modal-sheet.tall {
+  max-height: 85vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.modal-header {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;
+}
+.modal-header.sticky {
+  position: sticky; top: 0; background: var(--card); z-index: 1;
+}
+.close-btn {
+  background: transparent; color: var(--accent-2); border: 1px solid #2a2b2f; padding: 6px 10px; border-radius: 8px;
+}
+.recipe-form.scroll {
+  overflow-y: auto; padding-right: 4px;
+}
